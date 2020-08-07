@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:text="Enter the no. of passengers entered:" />
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="268dp"
+            android:layout_height="43dp"
+
+            android:layout_marginTop="40dp"
+            android:text="Payment Mode:"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+        <Spinner
+            android:id="@+id/s1"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <TextView
+        android:id="@+id/t2"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:text="Payment: Rs."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:layout_marginLeft="5dp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="203dp" />
+</LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Ticket"
+            android:onClick="viewticket"
+            />
+    </LinearLayout>
+</RelativeLayout>

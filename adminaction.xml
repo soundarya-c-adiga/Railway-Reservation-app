@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="Train ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Train Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="Train Type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+
+
+
+
+        android:ems="10"
+        android:hint="Available Class"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/e5"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/e6"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="Arrival Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/e7"
+        android:layout_width="193dp"
+        android:layout_height="35dp"
+
+        android:ems="10"
+        android:hint="Departure Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/e8"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="from station"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/e9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="to station"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/e10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:ems="10"
+        android:hint="Arrival platform_number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="183dp"
+        android:layout_height="37dp"
+       android:layout_marginLeft="100dp"
+        android:onClick="insert"
+        android:text="SUBMIT" />
+</LinearLayout>
+</RelativeLayout>

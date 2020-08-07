@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="392dp"
+        android:background="@color/colorPrimary"
+        android:text="Search"
+        android:onClick="onClick_search"
+        tools:background="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="206dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="87dp"
+        android:background="@color/colorPrimary"
+        android:onClick="selectdate"
+        android:text="Select Journey Date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColorLink="@color/colorPrimary"
+        tools:autoText="false" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="24dp"
+        android:text="I agree to the Terms and conditions" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="214dp"
+        android:onClick="viewt"
+        android:text="View Booked Tickets" />
+
+</RelativeLayout>
